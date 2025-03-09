@@ -16,9 +16,8 @@
       "source": "/",
       "has": [
         {
-          "type": "header",
-          "key": "user-agent",
-          "value": "(?i)(android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini)"
+          "type": "device",
+          "value": "mobile"
         }
       ],
       "destination": "https://suqiqwopzxkasuewq.myfunnelish.com/tt-ss-hh-pp",
