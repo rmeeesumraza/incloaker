@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/public/.htaccess",
+      "statusCode": 302
+    }
+  ]
+}
